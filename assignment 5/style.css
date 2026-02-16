@@ -1,0 +1,32 @@
+body { 
+        color: blue;
+		background-color: aqua;
+        font-family: sans-serif; 
+        padding: 20px; 
+         text-align: center;
+        }
+        h2 {
+  		text-align: center;
+		}
+        table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        margin-top: 20px; 
+        }
+        th, td {
+        border: 1px solid lightcoral; 
+        padding: 8px; 
+        text-align: center; 
+    }
+        th { 
+        background-color: lightpink; 
+    }
+        
+        /* Magnitude Color Coding */
+        .mag-micro { background-color: #e0f7fa; } /* < 2.0 */
+        .mag-minor { background-color: #c8e6c9; } /* 2.0-3.9 */
+        .mag-light { background-color: #fff9c4; } /* 4.0-4.9 */
+        .mag-moderate { background-color: #ffe0b2; } /* 5.0-5.9 */
+        .mag-strong { background-color: #ffccbc; } /* 6.0-6.9 */
+        .mag-major { background-color: #ffab91; } /* 7.0-7.9 */
+        .mag-great { background-color: #ef9a9a; } /* 8.0+ */
