@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Earthquake Data Viewer</title>
+    <style>
+        body { 
+        color: blue;
+		background-color: aqua;
+        font-family: sans-serif; 
+        padding: 20px; 
+         text-align: center;
+        }
+        h2 {
+  		text-align: center;
+		}
+        table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        margin-top: 20px; 
+        }
+        th, td {
+        border: 1px solid #ddd; 
+        padding: 8px; 
+        text-align: center; 
+    }
+        th { 
+        background-color: #f2f2f2; 
+    }
+        
+        /* Magnitude Color Coding */
+        .mag-micro { background-color: #e0f7fa; } /* < 2.0 */
+        .mag-minor { background-color: #c8e6c9; } /* 2.0-3.9 */
+        .mag-light { background-color: #fff9c4; } /* 4.0-4.9 */
+        .mag-moderate { background-color: #ffe0b2; } /* 5.0-5.9 */
+        .mag-strong { background-color: #ffccbc; } /* 6.0-6.9 */
+        .mag-major { background-color: #ffab91; } /* 7.0-7.9 */
+        .mag-great { background-color: #ef9a9a; } /* 8.0+ */
+    </style>
+</head>
+<body>
+
+<h2>Upload Earthquake CSV</h2>
+<input type="file" id="csvFile" accept=".csv" />
+<div id="tableContainer"></div>
+
+<script>
+    document.getElementById('csvFile').addEventListener('change', handleFileSelect);
+
+    function getMagnitudeDescription(mag) {
+        if (mag < 2.0) return {text: 'Micro', css: 'mag-micro'};
+        if (mag < 4.0) return {text: 'Minor', css: 'mag-minor'};
+        if (mag < 5.0) return {text: 'Light', css: 'mag-light'};
+        if (mag < 6.0) return {text: 'Moderate', css: 'mag-moderate'};
+        if (mag < 7.0) return {text: 'Strong', css: 'mag-strong'};
+        if (mag < 8.0) return {text: 'Major', css: 'mag-major'};
+        return {text: 'Great', css: 'mag-great'};
+    }
+
+    function handleFileSelect(evt) {
+        const file = evt.target.files[0];
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const lines = e.target.result.split('\n');
+            let tableHtml = '<table><tr><th>Date</th><th>Name</th><th>Magnitude</th><th>Description</th></tr>';
+            
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+                const [date, name, magStr] = lines[i].split(',');
+                const mag = parseFloat(magStr);
+                const desc = getMagnitudeDescription(mag);
+                
+                tableHtml += `<tr class="${desc.css}">
+                    <td>${date}</td>
+                    <td>${name}</td>
+                    <td>${mag.toFixed(1)}</td>
+                    <td>${desc.text}</td>
+                </tr>`;
+            }
+            tableHtml += '</table>';
+            document.getElementById('tableContainer').innerHTML = tableHtml;
+        };
+        reader.readAsText(file);
+    }
+</script>
+</body>
+</html>
