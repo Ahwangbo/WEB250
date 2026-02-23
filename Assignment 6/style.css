@@ -1,0 +1,32 @@
+body {
+        color: blue;
+		background-color: aqua;
+        font-family: sans-serif;
+        margin: 20px;
+         padding: 20px; 
+        text-align: center;
+        }
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+        .category-TS { background-color: #add8e6; } /* Light Blue for Tropical Storm */
+        .category-1 { background-color: #ffff99; } /* Light Yellow for Cat 1 */
+        .category-2 { background-color: #ffdd55; } /* Yellow-Orange for Cat 2 */
+        .category-3 { background-color: #ff9933; } /* Orange for Cat 3 (Major) */
+        .category-4 { background-color: #ff5555; } /* Red for Cat 4 (Major) */
+        .category-5 { background-color: #ff0000; } /* Bright Red for Cat 5 (Major) */
+        .category-NR { background-color: #cccccc; } /* Grey for Not Rated/Other */
