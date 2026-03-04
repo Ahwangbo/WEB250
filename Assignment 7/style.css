@@ -1,0 +1,29 @@
+ body {  
+        color: blue; 
+        background-color: aqua; 
+        font-family: sans-serif; 
+        margin: 20px; 
+        text-align: center;
+    }
+        table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        margin-top: 20px; 
+    }
+        th, td { 
+        border: 1px solid #ddd; 
+        padding: 8px; 
+        text-align: left; 
+    }
+        th { 
+        background-color: #f2f2f2; 
+    }
+        .category-5 { background-color: #ff0000; color: white; }
+        .category-4 { background-color: #ff7f00; }
+        .category-3 { background-color: #ffbf00; }
+        .category-2 { background-color: #ffff00; }
+        .category-1 { background-color: #bfff00; }
+        .tropical-storm { background-color: #00ffff; }
+        .tropical-depression { background-color: #007fff; color: white; }
+        #message { color: green; margin-top: 10px; }
+        #error { color: red; margin-top: 10px; }
