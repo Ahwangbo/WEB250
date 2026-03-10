@@ -1,0 +1,1823 @@
+{
+  "head" : {
+    "vars" : [ "Date", "Wildfire", "Area" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2006-07-24T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tripod Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "175184 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-07-14T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carlton Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "256108 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2017-10-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wilson Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "50 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2017-12-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thomas Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "281893 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-06-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ferguson Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "95947 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-06-23T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pawnee Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "15185 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-06-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "County Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "90288 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-07-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Klamathon Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "30008 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-07-23T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carr Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "191211 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-07-25T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cranston Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "13139 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-07-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Whaleback Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "18726 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-07-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mendocino Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "312447 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-08-01T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Donnell Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "23824 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-08-06T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Holy Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "22714 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-11-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woolsey Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "96949 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-11-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Camp Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "153336 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-08-12T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moose Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "225 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-10-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Burris Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "350 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Smith Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bighorn Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1840004 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Havilah Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "0.1 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mangum Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "71450 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-12T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hog Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "533 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ant Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "10 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lost Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "591 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-15T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vics Peak Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "292480 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-15T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sand Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "455 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-20T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "8998 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-24T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taylor Springs Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "0.1 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-24T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monarch Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2324 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-24T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brown Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "8268 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-25T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bend Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "263 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-25T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Twin Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "227673 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-26T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurora Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "280 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-26T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Miller Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "16038 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Poeville Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2975 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wood Springs 2 Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "115749 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-28T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wallace Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "66 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-28T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Goose Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "640 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Flat Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1088 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-06-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osage Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "5 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-02T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jakes Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "4.6 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-03T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Polles Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "21600 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rose Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1.2 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-06T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Numbers Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "165066 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fresnal Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1134 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-16T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pickets Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "0.1 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-20T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gold Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "22634 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Salmon Complex fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "144698 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-31T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apple Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "33424 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-31T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pine Gulch Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "139007 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-10T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grizzly Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "32302 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-12T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lake Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "62178 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cameron Peak Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "208913 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-16T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "CZU Lightning Complex fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "86509 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-16T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SCU Lightning Complex fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "396624 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hennessey Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "969027 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "August Complex fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2065296 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "637870 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LNU Lightning Complex fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "363220 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-18T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dolan Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "124924 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-18T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Red Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "14.7 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-19T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Butte/Tehama/Glenn Lightning Complex"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "19609 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-19T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "SQF Lightning Complex fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "174178 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-26T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "East Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "6 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-08-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skyway Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "28 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-09-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Long Bar Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "0.76 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-09-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "379895 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-09-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "El Dorado Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "22744 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-10-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slater and Devil fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "157229 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-11-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mountain View fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "20385 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-12-02T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bond Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "6686 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-05-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Copper Canyon Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2875 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-05-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tussock Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "5546 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-05-20T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "88918 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-01T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mescal Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "72250 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Telegraph Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "180757 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-10T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pinnacle Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "34417 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Robertson Draw Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "29885 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-15T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dairy Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "165 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-16T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Backbone Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "40855 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Willow Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "2877 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-18T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "78065 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-20T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muddy Slide Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "4093 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-28T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tennant Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "10580 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-06-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Salt Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "12660 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-03T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beckwourth Complex fires"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "105670 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-04T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tamarack Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "137274 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-06T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bootleg Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "413717 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Snake River Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "109444 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lick Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "80421 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "West Lolo Complex Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "39053 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-09T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Morgan Creek Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "7586 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dixie Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "66468321 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-24T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lava Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "79227 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-27T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "PF Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "66134 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-29T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "McFarland Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "490612 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monument Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1338744 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-07-31T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "McCash Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "569772 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-08-01T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antelope Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "188820 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-08-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Richard Spring Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "171130 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-08-14T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caldor Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "221835 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-08-30T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cronan Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "13870 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-04-12T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "McBride Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "6159 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-04-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cooks Peak Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "59359 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-07-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Washburn Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "4886 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-08-31T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Border 32 Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "4456 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-09-02T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mill Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "196476 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-09-05T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fairview Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "647748 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-09-06T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mosquito Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1950248 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2023-07-02T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tunnel 5 Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "546 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2023-07-08T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Boulder Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "233 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2023-07-29T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sourdough Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1397 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2024-07-02T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thompson Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "10274 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2024-07-11T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cow Valley Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "133490 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2024-07-13T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lone Rock Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "131407 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2024-07-17T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Durkee Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1067040 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2025-01-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palisades Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "71139 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2025-01-22T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hughes Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "5054 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2025-08-01T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gifford Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "1194853.5 acres"
+      }
+    }, {
+      "Date" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2025-08-07T00:00:00Z"
+      },
+      "Wildfire" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canyon Fire"
+      },
+      "Area" : {
+        "type" : "literal",
+        "value" : "5370 acres"
+      }
+    } ]
+  }
+}

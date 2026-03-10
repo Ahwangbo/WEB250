@@ -1,0 +1,32 @@
+body {
+            color: blue; 
+            background-color: aqua; 
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+             text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4a4a4a;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Color classes based on order of magnitude */
+        .magnitude-1 { background-color: #ffe5e5; } /* e.g., 1-9 */
+        .magnitude-10 { background-color: #ffb2b2; } /* e.g., 10-99 */
+        .magnitude-100 { background-color: #ff7f7f; } /* e.g., 100-999 */
+        .magnitude-1000 { background-color: #ff4c4c; } /* e.g., 1000-9999 */
+        .magnitude-10000 { background-color: #ff1919; } /* e.g., 10000+ */
