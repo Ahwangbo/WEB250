@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfire Impact Tracker</title>
+    <style>
+        body {
+            color: blue; 
+            background-color: aqua; 
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+             text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4a4a4a;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Color classes based on order of magnitude */
+        .magnitude-1 { background-color: #ffe5e5; } /* e.g., 1-9 */
+        .magnitude-10 { background-color: #ffb2b2; } /* e.g., 10-99 */
+        .magnitude-100 { background-color: #ff7f7f; } /* e.g., 100-999 */
+        .magnitude-1000 { background-color: #ff4c4c; } /* e.g., 1000-9999 */
+        .magnitude-10000 { background-color: #ff1919; } /* e.g., 10000+ */
+    </style>
+</head>
+<body>
+    <h1>Wildfire Data (Sorted by Area Impacted, Descending)</h1>
+    <table id="wildfireTable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Wildfire Name</th>
+                <th>Area Impacted (acres)</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Data will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        // 1. JSON Data Source
+        const rawWildfireData = [
+            {"date": "2025-07-15", "wildfire": "Silver Blaze", "areaImpacted": 5},
+            {"date": "2025-08-01", "wildfire": "Creek Fire", "areaImpacted": 379000},
+            {"date": "2025-08-20", "wildfire": "Apple Fire", "areaImpacted": 33400},
+            {"date": "2025-09-10", "wildfire": "Valley Fire", "areaImpacted": 100},
+            {"date": "2025-09-25", "wildfire": "Bear Fire", "areaImpacted": 3},
+            {"date": "2025-10-05", "wildfire": "Glass Fire", "areaImpacted": 67000},
+            {"date": "2025-10-15", "wildfire": "August Complex", "areaImpacted": 1032600}
+        ];
+
+        // 2. Build an array of dictionaries (already in the desired format)
+        let wildfireDataArray = [...rawWildfireData];
+
+        // 3. Sort the data in decreasing order of impact
+        wildfireDataArray.sort((a, b) => b.areaImpacted - a.areaImpacted);
+
+        // Function to determine the magnitude class
+        function getMagnitudeClass(area) {
+            if (area < 10) return 'magnitude-1';
+            if (area < 100) return 'magnitude-10';
+            if (area < 1000) return 'magnitude-100';
+            if (area < 10000) return 'magnitude-1000';
+            return 'magnitude-10000';
+        }
+
+        // 4. Display the data in an HTML table with color-coding
+        function displayData() {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = ''; // Clear existing data
+
+            wildfireDataArray.forEach(fire => {
+                const row = document.createElement('tr');
+                // Dynamically add a class based on the area's magnitude
+                row.classList.add(getMagnitudeClass(fire.areaImpacted));
+
+                const dateCell = document.createElement('td');
+                dateCell.textContent = fire.date;
+                row.appendChild(dateCell);
+
+                const nameCell = document.createElement('td');
+                nameCell.textContent = fire.wildfire;
+                row.appendChild(nameCell);
+
+                const areaCell = document.createElement('td');
+                areaCell.textContent = fire.areaImpacted.toLocaleString(); // Format number with commas
+                row.appendChild(areaCell);
+
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Run the display function when the script loads
+        displayData();
+    </script>
+</body>
+</html>
