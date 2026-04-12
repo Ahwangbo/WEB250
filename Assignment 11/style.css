@@ -1,0 +1,28 @@
+body { 
+         color: blue; 
+        background-color: aqua;
+        font-family: sans-serif; 
+        display: flex; 
+        gap: 50px; 
+        justify-content: center; 
+        margin-top: 50px; 
+    }
+        form { 
+        border: 1px solid #ccc; 
+        padding: 20px; 
+        border-radius: 8px; 
+    }
+        input { 
+        display: block; 
+        margin-bottom: 10px; 
+        width: 200px; 
+        padding: 8px; 
+    }
+        button { 
+        width: 100%; 
+        padding: 10px; 
+        background: #007bff; 
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+    }
