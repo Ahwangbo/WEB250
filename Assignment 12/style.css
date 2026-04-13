@@ -1,0 +1,41 @@
+       body { 
+        color: blue; 
+        background-color: aqua;
+        font-family: sans-serif; 
+        margin: 20px; 
+        text-align: center;
+    }
+        table { 
+        width: 100%; 
+        border-collapse: 
+        collapse; margin-top: 20px; 
+    }
+        th, td { 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        text-align: left; 
+    }
+        th { 
+        background-color: #f4f4f4; 
+    }
+        .form-container { 
+        margin-bottom: 20px; 
+    }
+        input, button { 
+        padding: 8px; 
+        margin-top: 5px; 
+    }
+        button { 
+        cursor: pointer; 
+    }
+        .edit-btn { 
+        background-color: #ffc107; 
+    }
+        .delete-btn { 
+        background-color: #dc3545; 
+        color: white; 
+    }
+        .add-btn { 
+        background-color: #28a745; 
+        color: white; 
+    }
