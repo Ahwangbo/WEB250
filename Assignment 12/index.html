@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API CRUD Application</title>
+    <style>
+        body { 
+        color: blue; 
+        background-color: aqua;
+        font-family: sans-serif; 
+        margin: 20px; 
+        text-align: center;
+    }
+        table { 
+        width: 100%; 
+        border-collapse: 
+        collapse; margin-top: 20px; 
+    }
+        th, td { 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        text-align: left; 
+    }
+        th { 
+        background-color: #f4f4f4; 
+    }
+        .form-container { 
+        margin-bottom: 20px; 
+    }
+        input, button { 
+        padding: 8px; 
+        margin-top: 5px; 
+    }
+        button { 
+        cursor: pointer; 
+    }
+        .edit-btn { 
+        background-color: #ffc107; 
+    }
+        .delete-btn { 
+        background-color: #dc3545; 
+        color: white; 
+    }
+        .add-btn { 
+        background-color: #28a745; 
+        color: white; 
+    }
+    </style>
+</head>
+<body>
+    <h1>Records Management</h1>
+
+    <div class="form-container">
+        <h2>Add/Update Record</h2>
+        <input type="hidden" id="record-id">
+        <input type="text" id="record-text" placeholder="Text Field" required>
+        <input type="number" id="record-number" placeholder="Number Field" required>
+        <input type="date" id="record-date" required>
+        <button onclick="saveRecord()" class="add-btn">Save Record</button>
+        <button onclick="cancelUpdate()" style="display: none;" id="cancel-btn">Cancel Update</button>
+    </div>
+
+    <h2>Current Records</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Text</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="records-table-body">
+            <!-- Records will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <script>
+        const API_URL = 'https://api.example.com'; // Replace with your actual API endpoint
+
+        // Function to fetch and display all records
+        async function fetchAndDisplayRecords() {
+            try {
+                const response = await fetch(API_URL);
+                if (!response.ok) throw new Error('Failed to fetch records');
+                const records = await response.json();
+                displayRecords(records);
+            } catch (error) {
+                console.error('Error fetching records:', error);
+                alert('Failed to load records. Ensure your API is running and accessible.');
+            }
+        }
+
+        // Function to render records in the table
+        function displayRecords(records) {
+            const tableBody = document.getElementById('records-table-body');
+            tableBody.innerHTML = '';
+            records.forEach(record => {
+                const row = tableBody.insertRow();
+                row.innerHTML = `
+                    <td>${record.id}</td>
+                    <td>${record.text}</td>
+                    <td>${record.number}</td>
+                    <td>${new Date(record.date).toLocaleDateString()}</td>
+                    <td>
+                        <button onclick="editRecord('${record.id}', '${record.text}', ${record.number}, '${new Date(record.date).toISOString().split('T')[0]}')" class="edit-btn">Edit</button>
+                        <button onclick="deleteRecord('${record.id}')" class="delete-btn">Delete</button>
+                    </td>
+                `;
+            });
+        }
+
+        // Function to save (insert/update) a record
+        async function saveRecord() {
+            const id = document.getElementById('record-id').value;
+            const text = document.getElementById('record-text').value;
+            const number = document.getElementById('record-number').value;
+            const date = document.getElementById('record-date').value;
+
+            if (!text || !number || !date) {
+                alert('All fields are required.');
+                return;
+            }
+
+            const recordData = { text, number: parseInt(number), date };
+            const method = id ? 'PUT' : 'POST';
+            const url = id ? `${API_URL}/${id}` : API_URL;
+
+            try {
+                const response = await fetch(url, {
+                    method: method,
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(recordData)
+                });
+
+                if (!response.ok) throw new Error('Failed to save record');
+                
+                // After each action, display the current records
+                clearForm();
+                fetchAndDisplayRecords(); 
+            } catch (error) {
+                console.error('Error saving record:', error);
+                alert('Failed to save record. Check API endpoint and implementation.');
+            }
+        }
+
+        // Function to populate the form for editing
+        function editRecord(id, text, number, date) {
+            document.getElementById('record-id').value = id;
+            document.getElementById('record-text').value = text;
+            document.getElementById('record-number').value = number;
+            document.getElementById('record-date').value = date;
+            document.getElementById('cancel-btn').style.display = 'inline';
+        }
+
+        // Function to delete a record
+        async function deleteRecord(id) {
+            if (!confirm('Are you sure you want to delete this record?')) return;
+
+            try {
+                const response = await fetch(`${API_URL}/${id}`, {
+                    method: 'DELETE'
+                });
+
+                if (!response.ok) throw new Error('Failed to delete record');
+                
+                // After each action, display the current records
+                fetchAndDisplayRecords();
+            } catch (error) {
+                console.error('Error deleting record:', error);
+                alert('Failed to delete record. Check API endpoint and implementation.');
+            }
+        }
+
+        // Function to clear the input form
+        function clearForm() {
+            document.getElementById('record-id').value = '';
+            document.getElementById('record-text').value = '';
+            document.getElementById('record-number').value = '';
+            document.getElementById('record-date').value = '';
+            document.getElementById('cancel-btn').style.display = 'none';
+        }
+
+        function cancelUpdate() {
+            clearForm();
+        }
+
+        // Initial fetch of records when the page loads
+        document.addEventListener('DOMContentLoaded', fetchAndDisplayRecords);
+    </script>
+</body>
+</html>
