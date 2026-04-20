@@ -8,3 +8,8 @@ to make the site look more like what I wanted to look alike
 
 Assignment 4
 I leanred as I was doing the assignment that this was challanging for me because I had so much trouble with adding the numbers and doing the multiplicaiton and as I took time to work on it and did it and server side scripting worked I learned how to fix it and how to work on this. I intened to use this in the world for educaqiton and how it will help parents and children to do the different equaiton of different problems using the tbale. 
+
+Assignment 13
+In this class I learned for server-side-scripting for this class was learning to use different language and using the different side scripting for the website 
+was really neat and making it work for customers to see how it works and also learning to see how it works as customer point of view. I would apply the things I learned 
+by showing it to customer and working togeter to make it better and i would also use it for my web development as using different web language to include in the website. 
