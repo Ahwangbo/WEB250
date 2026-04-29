@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Rescue Application</title>
+    <style>
+        /* Centers everything on the page */
+        body { 
+        color: blue;
+        font-family: Arial, sans-serif; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        background-color: aqua;
+        padding: 20px; 
+    }
+        .container { 
+        background: white; 
+        padding: 20px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        width: 80%; 
+        max-width: 600px; 
+    }
+        input, button { 
+        margin: 10px; 
+        padding: 10px; 
+        width: 80%; 
+    }
+        table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        margin-top: 20px; 
+    }
+        th, td { 
+        border: 1px solid #ddd; 
+        padding: 8px; 
+    }
+        .error { 
+        color: red; 
+        font-weight: bold; 
+        margin-top: 10px; 
+        display: none; 
+    }
+        .btn-quit { 
+        background-color: #ff4d4d; 
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+    }
+    </style>
+</head>
+<body>
+
+<div class="container" id="app">
+    <h1>Dog Rescue Registry</h1>
+    
+    <!-- Dog Entry Form -->
+    <input type="text" id="dogName" placeholder="Dog Name">
+    <input type="text" id="dogBreed" placeholder="Breed">
+    <input type="number" id="dogAge" placeholder="Age (years)">
+    <input type="number" id="dogWeight" placeholder="Weight (lbs)">
+    <button onclick="submitDog()">Submit Dog</button>
+    <button class="btn-quit" onclick="quitApp()">Quit Application</button>
+
+    <hr>
+
+    <!-- Search Section -->
+    <h3>Search for a Dog</h3>
+    <input type="text" id="searchQuery" placeholder="Enter dog name to search...">
+    <button onclick="searchDog()">Search</button>
+    <p id="errorMessage" class="error">No dog found with that name.</p>
+
+    <!-- Three Required Empty Tables -->
+    <h3>Rescue Records</h3>
+    <table id="table1"><thead><tr><th>Name</th><th>Breed</th><th>Age</th><th>Weight</th></tr></thead><tbody id="tbody1"></tbody></table>
+    <br>
+    <table id="table2"><thead><tr><th>Search History/Details</th></tr></thead><tbody id="tbody2"></tbody></table>
+    <br>
+</div>
+
+<script>
+    const dogs = [];
+
+    function submitDog() {
+        const name = document.getElementById('dogName').value;
+        const breed = document.getElementById('dogBreed').value;
+        const age = document.getElementById('dogAge').value;
+        const weight = document.getElementById('dogWeight').value;
+
+        if (name && breed && age && weight) {
+            const dog = { name, breed, age, weight };
+            dogs.push(dog);
+            
+            // Add to the first table
+            const tbody = document.getElementById('tbody1');
+            const row = tbody.insertRow();
+            row.innerHTML = `<td>${name}</td><td>${breed}</td><td>${age}</td><td>${weight}</td>`;
+            
+            // Clear inputs
+            document.querySelectorAll('input').forEach(input => input.value = '');
+        } else {
+            alert("Please fill in all fields.");
+        }
+    }
+
+    function searchDog() {
+        const query = document.getElementById('searchQuery').value.toLowerCase();
+        const errorMsg = document.getElementById('errorMessage');
+        const found = dogs.find(dog => dog.name.toLowerCase() === query);
+
+        if (found) {
+            errorMsg.style.display = 'none';
+            const tbody2 = document.getElementById('tbody2');
+            const row = tbody2.insertRow();
+            row.innerHTML = `<td>Found: ${found.name} (${found.breed})</td>`;
+        } else {
+            errorMsg.style.display = 'block'; // Shows error if no dog found
+        }
+    }
+
+    function quitApp() {
+        if (confirm("Are you sure you want to quit?")) {
+            document.getElementById('app').innerHTML = "<h2>Program Terminated.</h2><p>Refresh to restart.</p>";
+        }
+    }
+</script>
+
+</body>
+</html>
